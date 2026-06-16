@@ -1,0 +1,692 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.body {
+    font-family: "Noto Sans", sans-serif;
+    overflow-x: hidden;
+}
+.header {
+    overflow: hidden;
+    background-image: url(../img/bg_1.png);
+    background-repeat: no-repeat;
+    background-position: top -37.8vw right -27vw;
+    background-size: 100%;
+}
+.menu-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.logo_top{
+    margin-left: 100px;
+}
+.information ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4vw;
+    gap: 43px;
+}
+.information li a{
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 85px;
+    color: #fefefe;
+    font-weight: 500;
+    font-family: "Noto Sans", sans-serif;
+}
+.medias ul{
+    font-family: "Noto Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+    margin: 0 100px 0 0;
+}
+.medias li img{
+    height: 20px;
+    width: 100%;
+}
+
+.boss_mackbook{
+    margin-left: 10%;
+}
+.software_block{
+    font-family: "Noto Sans", sans-serif;
+    position: relative;
+    top: 20px;
+}
+.text_container {
+    width: 37em;
+    max-height: 14em;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+.h2_1{
+    max-width: 40vw;
+    height: 10vw;
+    font-size: 70px;
+    line-height: 74px;
+    color: #1a1a1a;
+    font-weight: 500;
+    margin-bottom: 20px; 
+}
+.boss_mackbook h2{
+    font-size: 55.5px;
+    line-height: 64px;
+    color: #1a1a1a;
+    font-weight: 500;
+    position: relative;
+    top: -8vw;
+    left: 15px;
+}
+
+.text_container h4{
+    position: relative;
+    top: -29vh;
+    left: 28vw;
+    font-size: 30px;
+    letter-spacing: 4px;
+    line-height: 40px;
+    color: transparent; 
+    font-weight: 900;
+    font-family: "Noto Sans", sans-serif;
+    -webkit-text-stroke: 2px #0093ff; 
+    text-shadow: 2px #0093ff;
+    padding-bottom: 32px;
+}
+.software{
+    width: 717px;
+    height: auto;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2b2b2b;
+    margin-top: -20px;
+}
+.software_block {
+    position: relative;
+    top: 50px;
+    max-height: 45vw;
+}
+.software_block img{
+    width: 2px;
+    margin: 150px 15px 0 0;
+    max-height: 105px;
+}
+.software_block p{
+    padding-top: 32px;
+    position: relative;
+    top: -30vh;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2b2b2b;
+}
+.Buttons {
+    position: relative;
+    text-align: center;
+    top: -10vw;
+    display: flex;
+    align-items: baseline;
+    margin: 30px 0 30 0;
+    gap: 20px;
+}
+.Buttons a{
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 600;
+}
+.Button_container1 a{
+    display: block;
+    min-height: 42px;
+    min-width: 193.5px;
+    border-radius: 26px;
+    background-color: #0099ff;
+    color: #fff;
+}
+
+.Button_container2 a{
+    display: block;
+    min-width: 193.5px;
+    min-height: 42px;
+    border-radius: 26px;
+    border: 2px solid #0099ff;
+    color: #2b2b2b;
+}
+
+
+.boss_mackbook .mackbook_img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+}
+.mackbook_img{
+    display: flex;
+    justify-content: center;
+}
+.mackbook_img img{
+    position: absolute;
+    top: 25vh;
+    width: 40%;
+    max-height: 60%;
+    margin-right: 6vw;
+}
+.main{
+    font-family: "Noto Sans", sans-serif;
+}
+.Customer_type{
+    background-image: url(../img/bg2_copy.png);
+    background-repeat: no-repeat;
+    background-position: left -80px top 50px;
+    background-size: auto 45vw;
+    padding-left: 10%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.customers {
+    position: relative;
+    top: 8vw;
+    margin-bottom: 25vw;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rings {
+    margin: 20px 0 0 50px;
+}
+.rings img{
+    width: 25vw;
+    height: 27vw;
+}
+.h2_text{
+    font-size: 40px;
+    line-height: 60px;
+    color: #1a1a1a;
+    font-weight: 400;
+    gap: 30px;
+    margin: 50px 50px 50px 20px;
+}
+.h2{
+    font-weight: 500;
+}
+.h2_text p {
+    display: flex;
+    align-items: stretch;
+    width: 600px;
+    height: 63px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 40px 25px 20px;
+    font-family: "Noto Sans", sans-serif;
+    color: #2b2b2b;
+}
+.Rectangle_h2 {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    gap: 30px;
+}
+.Button_container3 a{
+    display: flex;
+    justify-content: center;
+    min-height: 42px;
+    max-width: 200px;
+    border-radius: 26px;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5vw 0;
+}
+.different {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: baseline;
+    align-items: stretch;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1a1a1a;
+    width: 50vw;
+    margin-bottom: 40px;
+}
+.different h2 {
+    font-weight: 500;
+}
+.different img{
+    height: 8vw;
+    width: auto;
+}
+.description {
+    max-width: 40vw;
+}
+.description li h4{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+}
+.description li p{
+    color: #2b2b2b;
+}
+.mackbook_img2{
+    background-image: url(../img/bg2.png); 
+    background-repeat: no-repeat;
+    background-size: 60vw 60vw;
+    background-position: right 5vw top -3vh;
+    
+}
+.mackbook_img2 img {
+    position: relative;
+    right: 5vw;
+    padding-right: 10vh;
+}
+.Mean {
+    display: flex;
+    justify-content: center;
+    margin: 5vw 10vw;
+}
+.Mean h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    line-height: 70px;
+    color: #1a1a1a;
+    margin-bottom: 4vw;
+}
+.means {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 5vw;
+    margin: 5vw;
+}
+.means li {
+    width: 260px;
+    height: 70px;
+}
+.means li p{
+    width: 260px;
+    height: 70px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2b2b2b;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.means li img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: baseline;
+    margin: 0px 0 20px 6vw;
+}
+.means li h4 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    font-weight: bold;
+    text-align: center;
+}
+.Button_container4 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 6vw 0 4vw 0;
+    padding-top: 9vw;
+}
+.Button_container4 a{
+    display: flex;
+    justify-content: center;
+    min-height: 42px;
+    min-width: 200px;
+    border-radius: 26px;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.trusted_brands {
+    background-image: url(../img/bg3.png);
+    background-repeat: no-repeat;
+    background-position: left -200px top -100px;
+    background-size: auto 60vw;
+    margin: 5vw 0;
+    padding: 2vw 0 5vw 15%;
+    height: 150%;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3vw;
+    width: 75%;
+}
+.hand {
+    width: 25vw;
+    padding: 6vw 0 4vw 0;
+}
+.hand img{
+    width: 28vw;
+    height: 30vw;
+}
+.rectangle {
+    display: flex;
+    align-items: baseline;
+    align-items: stretch;
+    gap: 25px;
+}
+.rectangle img {
+    display: flex;
+    align-items: stretch;
+    padding-top: 12px;
+    width: 3px;
+    height: 116px;
+}
+.text_p {
+     margin: 100px 0px 50px 20px;
+     padding-left: 100px;
+}
+.text_p h2{
+    padding-bottom: 40px;
+    font-size: 60px;
+    line-height: 70px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+.text_p p{
+    width: 500px;
+    height: 183px;
+    font-size: 19px;
+    line-height: 29px;
+    color: #2b2b2b;
+}
+.text_p h4 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+}
+.h4_txt p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #8f8f8f;
+    height: 50px;
+}
+.Leading_brands {
+    width: 100%;
+}
+.Leading_brands ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    max-width: 1000px;    
+    margin: 0 auto; 
+    min-width: 50vw;
+    padding: 1vw 20vw 0 20vw;
+    height: 20vw;
+    gap: 2vw;
+}
+.Brand {
+    flex: 1 1 calc(25% - 30px); 
+    min-width: 150px;     
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.Brand img{
+    max-width: 100%;       
+    max-height: 60px;      
+    height: auto;
+    object-fit: contain;
+}    
+.Ready {
+    background-image: url(../img/bg4.png);
+    background-repeat: no-repeat;
+    background-size: auto 70vw;
+    background-position: top 0vh right -17vw;
+    padding-left: 7%;
+    min-height: 50vw;;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Ready_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+.top_container {
+    padding: 0 auto;
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.top_container h2 {
+    width: 70vh;
+    font-size: 60px;
+    line-height: 70px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+.top_container img {
+    display: flex;
+    align-items: end;
+    margin-top: 2vh;
+    height: 12vw;
+}
+.Button_container5 a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 40px;
+    max-width: 200px;
+    border-radius: 26px;
+    background-color: #0099ff;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 3vw 0 3vw 8px;
+}
+.Button_text {
+    flex-direction: column; 
+    align-items: flex-start; 
+    gap: 15px;
+}
+.mackbook_end {
+    position: relative;
+    top: 2vw;
+    right: 0;
+}
+.mackbook_end img {
+    max-width: 120vh;
+    max-height: 80vh;
+}
+.footer {
+    padding: 4vw 5vw 2vw 5vw;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #001626;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    max-width: 1900px;
+    gap: 5vw;
+}
+.bottom_content {
+    padding-left: 6vw;
+    display: flex;
+    align-items: baseline;
+}
+.boss_logic_ftr {
+    max-width: 250px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+.information2 {
+    width: 50vw;
+    display: grid;
+    align-items: center;
+}
+.Boss_information {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.Boss_information ul {
+    padding: 0 2vh 2vh 2vh;
+}
+.Boss_information li a{
+    color: #fff;
+}
+.Prevacy {
+    opacity: 0.612;
+}
+.popular_links {
+    width: 10vw;
+}
+.popular_links, .get_in_touch, .INTERESTED {
+    margin-left: 2vw;
+}
+.popular_links, .get_in_touch h4, .INTERESTED h4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #0099ff;
+    font-weight: bold;
+}
+.get_in_touch {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 10vw;
+}
+.get_in_touch .envelope img {
+    width: 23px;
+    height: 12px;
+}
+.comunication {
+    padding: 5px 8px 5px 0;
+}
+.get_in_touch img {
+    padding: 5px 5px 2px 5px;
+    width: 18px;
+    height: 18px;
+}
+.get_in_touch li {
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.more_information {
+    max-width: 20vw;
+}
+.INTERESTED {
+    width: 25.1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Buttons_end {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+}
+.Button_container7, .logos-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Button_container6 a{
+    display: flex;
+    justify-content: start;
+    max-height: 42px;
+    min-width: 270px;
+    border-radius: 21px;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 15px;
+    margin: 2vh -10px;
+}
+
+.Button_container7 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 162px;
+    border-radius: 21px;
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logos_end {
+    max-width: 0;
+}
+
+.logos-bottom{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: -33vw;
+    top: 70px;
+    gap: 2.3vw;
+}
+
