@@ -706,14 +706,13 @@ a{
     max-width: 100%;
 }
 .Prevacy::before {
-  content: "";
-  display: block;
-  width: 90%;
-  height: 1px;              
-  background-color: #66747d;
-  margin-bottom: 15px;   
+    content: "";
+    display: block;
+    width: 90%;
+    height: 1px;              
+    background-color: #66747d;
+    margin-bottom: 15px;   
     margin: 0 6vw 2vw 6vw;
-
 }
 .Privacy_terms {
     display: flex;
