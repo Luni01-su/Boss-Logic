@@ -16,8 +16,9 @@
                 <div class="logo_top">
                 <img src="img/logo.png" alt="#">
                 </div>
+                
                 <div class="information">
-                <nav>
+                <nav class="menu2">
                     <ul>
                         <li>
                             <a href="#">SOLUTIONS</a>
@@ -40,10 +41,14 @@
                     </ul>
                 </nav>
                 </div>
-
+            
                 <div class="Media">
+                     
+                <div class="our_media_button">
+                    <a class="button_a1" href="#">OUR MEDIA</a>
+                
                     <div class="medias">
-                        <nav>
+                        <nav class="media">
                             <ul>
                                 <li><a href="#"><img src="img/facebook-logo.png" alt="#"></a></li>
                                 <li><a href="#"><img src="img/twitter.png" alt="#"></a></li>
@@ -53,6 +58,7 @@
                         </nav>
                     </div>
                 </div>
+               </div>
             </div>
             <div class="menu_software">
                 <section class="boss_mackbook">
@@ -62,6 +68,7 @@
                     <h2 class="h2_1 flexbox">
                     Software that works the way you do
                     </h2>
+                    
                     <h4 class="REALLY">(REALLY)</h4>
                     </div>
                     <div class="software flexbox">
@@ -213,7 +220,7 @@
         <div class="wrapper">
             <div class="footer_content">
             <div class="bottom_content">
-            <div class="boss_logic_ftr">
+            <div class="boss_logic_ftr list">
                 <div class="logos">
                 <img src="img/logo 1.png" alt="#">
                 <img src="img/Rectangle 2 copy 5.png" alt="#">
@@ -223,7 +230,7 @@
             <div class="information2">
                 <nav>
                     <ul class="Boss_information">
-                        <li><ul class="popular_links">
+                        <li><ul class="popular_links list">
                             <h4>POPULAR LINKS</h4>
                             <li><a href="#">Solutions</a></li>
                             <li><a href="#">Together</a></li>
@@ -233,7 +240,7 @@
                             <li><a href="#">Contact</a></li>
                             </ul>
                         </li>
-                        <li> <ul class="get_in_touch">
+                        <li> <ul class="get_in_touch list">
                             <h4>GET IN TOUCH</h4>
                             <li class="envelope">
                                 <img class="comunication" src="img/005-envelope.png" alt="#">
@@ -248,7 +255,7 @@
                             </ul>
                         </li>
                         <li>
-                            <li><ul class="INTERESTED">
+                            <li><ul class="INTERESTED list">
                                 <li><ul class="interested_email">
                                 <h4>INTERESTED IN MORE INFORMATION?</h4>
                                 <li><ul class="Buttons_end">
@@ -294,5 +301,13 @@
             </div>
         </div>
     </footer>
+       <script>
+        burger.onclick = () => {
+        menu2.style.right = '0';
+    }
+    cancel.onclick = () => {
+        menu2.style.right = '-100%';
+    }
+    </script>
 </body>
 </html>
