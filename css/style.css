@@ -21,6 +21,7 @@ a{
     background-position: top -37.8vw right -27vw;
     background-size: 100%;
 }
+
 .menu-top{
     display: flex;
     justify-content: space-between;
@@ -70,39 +71,47 @@ a{
 .boss_mackbook{
     margin-left: 10%;
 }
-.software_block{
-    font-family: "Noto Sans", sans-serif;
-    position: relative;
-    top: 20px;
+
+.software_block {
+    gap: 30px;
 }
 
-.flexbox {
-    display: flex;
-    flex-direction: column;
+.h2_1:before {
+    content: " ";
+    background-color: #00ccff;
+    width: 2px;
+    height: 116px;
+    position: absolute;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
 }
+.h2_1 {
+    margin-left: -10px;
+    padding-left: 20px;
+ } 
 .h2_1{
-    max-width: 40vw;
-    height: 10vw;
+    position: relative;
+    min-width: 40vw;
     font-size: 70px;
     line-height: 74px;
     color: #1a1a1a;
     font-weight: 500;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
 }
+
 .boss_mackbook h2{
     font-size: 55.5px;
     line-height: 64px;
     color: #1a1a1a;
     font-weight: 500;
-    position: relative;
-    top: -8vw;
-    left: 15px;
 }
-
-.text_container h4{
+.text_container {
+    gap: 20px;
+    padding-bottom: 5vw;
+}
+.text_container span{
     position: relative;
-    top: -29vh;
-    left: 28vw;
     font-size: 25px;
     letter-spacing: 4px;
     line-height: 40px;
@@ -124,7 +133,7 @@ a{
 .software_block {
     position: relative;
     top: 50px;
-    max-height: 45vw;
+    min-height: 35vw;
 }
 .software_block img{
     width: 2px;
@@ -334,7 +343,8 @@ a{
     gap: 5vw;
     margin: 5vw;
 }
-.means li {
+
+.means li{
     width: 260px;
     height: 70px;
 }
@@ -351,10 +361,10 @@ a{
 .means li img {
     display: flex;
     justify-content: center;
-    align-items: center;
     align-items: baseline;
     margin: 0px 0 20px 6vw;
 }
+
 .means li h4 {
     display: flex;
     flex-wrap: wrap;
@@ -393,7 +403,7 @@ a{
     background-repeat: no-repeat;
     background-position: left -200px top -100px;
     background-size: auto 60vw;
-    margin: 5vw 0;
+    margin: 0;
     padding: 2vw 0 5vw 15%;
     height: 150%;
 }
@@ -614,6 +624,9 @@ a{
     color: #0099ff;
     font-weight: bold;
 }
+.popular_links h4 {
+    font-size: 15px;
+}
 .get_in_touch {
     display: flex;
     flex-direction: column;
@@ -798,7 +811,17 @@ a{
     }
 }
 @media screen and (min-width: 1024px) {
-    
+    .Buttons_end{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+    .Button_container6 a{
+        min-width: 11vw;
+    }
+    .logos_end .logos-bottom {
+        margin-left: 50px;
+    }
 }
 @media  screen and (min-width: 1200px) {
     .information ul{
@@ -971,8 +994,8 @@ a{
 }
 .software_block {
     position: relative;
-    top: 10px;
-    max-height: 45vw;
+    top: 18vw;
+    max-height: 55vw;
 }
 .software_block img{
     width: 2px;
